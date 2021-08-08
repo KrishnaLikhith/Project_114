@@ -1,0 +1,23 @@
+h3 {
+    font-size: 25px !important
+}
+
+.btn-success:hover {
+    background-color: red;
+}
+
+canvas {
+    border: 2px dashed black;
+    animation-name: try;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes try {
+    from {
+        box-shadow: 1px 1px 75px #cf3227;
+    }
+    to {
+        box-shadow: 1px 1px 75px #008DD5;
+    }
+}
