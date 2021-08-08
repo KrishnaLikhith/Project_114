@@ -23,7 +23,7 @@ function gotPosses(results) {
     if (results.length > 0) {
         console.log(results);
         nose_x = results[0].pose.nose.x - 30;
-        nose_y = results[0].pose.nose.y - 30;
+        nose_y = results[0].pose.nose.y - 35;
         console.log("Position of Lips is : x= " + nose_x + " y= " + nose_y);
     }
 }
